@@ -4,15 +4,24 @@
 </head>
 <body>
 
+
+  <img id="changeIt" src="https://raw.githubusercontent.com/vulasevich/web-game/refs/heads/main/Fish/spin.gif" width="640" height="360"/>
+  
   <button onclick="changeFish(1)">
-    <img id="changeIt" src="https://raw.githubusercontent.com/vulasevich/web-game/refs/heads/main/Fish/spin.gif" width="640" height="360"/>
+    <p>🐟</p>
   </button>
   
-
+  <button onclick="changeFish(2)">
+    <p>🐠</p>
+  </button>
+  
   <script>
     function changeFish(type){
       if (type == 1) {
       document.getElementById("changeIt").src= "https://raw.githubusercontent.com/vulasevich/web-game/refs/heads/main/Fish/scream.gif";
+      }
+      if (type == 2) {
+      document.getElementById("changeIt").src= "https://raw.githubusercontent.com/vulasevich/web-game/refs/heads/main/Fish/kiss.gif";
       }
     }
   </script>
