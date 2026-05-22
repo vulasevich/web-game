@@ -5,14 +5,13 @@
 <body>
 
   <button onclick="doSomething()">
-    <img src="https://raw.githubusercontent.com/vulasevich/web-game/refs/heads/main/Fish/spin.gif" width="640" height="360"/>
+    <img id="changeIt" src="https://raw.githubusercontent.com/vulasevich/web-game/refs/heads/main/Fish/spin.gif" width="640" height="360"/>
   </button>
   
-  <p id="changeIt">Fish</p>
 
   <script>
     function doSomething(){
-      document.getElementById("changeIt").innerHTML = "fishing";
+      document.getElementById("changeIt").src= "https://github.com/vulasevich/web-game/blob/main/Fish/scream.gif";
     }
   </script>
   
