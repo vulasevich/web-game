@@ -1,16 +1,17 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-  <script>
-    function doSomething(){
-      document.getElementByID("changeIt").innerHTML = "𓆝 𓆟 𓆞 𓆝 𓆟"
-    }
-  </script>
 </head>
 <body>
-  <h1>The Fish</h1>
-  <img src="https://raw.githubusercontent.com/vulasevich/web-game/refs/heads/main/fish.gif" width="640" height="360"/>
-  <button onclick="doSomething()">
-  <p id=changeIt> fish </p>
+
+  <button onclick="doSomething()"><img src="https://raw.githubusercontent.com/vulasevich/web-game/refs/heads/main/fish.gif" width="640" height="360"/></button>
+  
+  <p id="changeIt">Fishf</p>
+
+  <script>
+    function doSomething(){
+    document.getElementByID("changeIt").innerHTML = "fishing"
+    }
+  </script>
 </body>
 </html>
